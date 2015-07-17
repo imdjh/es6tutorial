@@ -287,8 +287,7 @@ const age = 30;
 const foo = {};
 foo.prop = 123;
 
-foo.prop
-// 123
+console.log(foo.prop)  //123
 
 foo = {} // 不起作用
 ```
